@@ -15,10 +15,12 @@ Remember: This assignment completes our movie chatbot system - focus on understa
 |----------|----------------|---------------|----------|
 | **Action Functions** | 9 | | |
 | **Core System Functions** | | | |
-| search_pa_list Implementation | 7 | | |
+| search_pa_list Implementation | 6 | | |
 | query_loop Function | 1 | | |
 | **Creative Additions** | | | |
 | Database & Pattern Extensions | 3 | | |
+| **Writeup & Reflection** | | | |
+| Reflection answers | 2 | | |
 | **TOTAL** | **20** | | |
 ---
 ## Action Functions (9 points)
@@ -40,12 +42,11 @@ Remember: This assignment completes our movie chatbot system - focus on understa
 - **0.5 points:** Function mostly works but has minor issues (edge cases, formatting)
 - **0 points:** Function doesn't work or not implemented
 ---
-## Core System Functions (8 points)
-**search_pa_list Implementation (7 points)**
-- **Returning Answers (3 points)**
-  - **3 points:** Correctly matches patterns and returns appropriate answers for all valid queries
-  - **2 points:** Works for most queries but misses some edge cases
-  - **1 point:** Basic functionality but significant issues with pattern matching
+## Core System Functions (6 points)
+**search_pa_list Implementation (5 points)**
+- **Returning Answers (2 points)**
+  - **2 points:** Correctly matches patterns and returns appropriate answers for all valid queries
+  - **1 point:** Works for most queries but misses some edge cases
   - **0 points:** Function doesn't properly return answers
 - **"No answers" Response (2 points)**
   - **2 points:** Correctly returns ["No answers"] when pattern matches but no data found
@@ -55,10 +56,6 @@ Remember: This assignment completes our movie chatbot system - focus on understa
   - **2 points:** Correctly returns ["I don't understand"] when no pattern matches
   - **1 point:** Sometimes returns correct response but inconsistent  
   - **0 points:** Doesn't handle unknown queries properly
-
-**query_loop Function (1 point)**
-- **1 point:** Loop works correctly, handles user input, displays results properly
-- **0 points:** Function doesn't work or not implemented
 ---
 ## Creative Additions (3 points)
 **Database & Pattern Extensions (3 points)**
@@ -71,6 +68,19 @@ Remember: This assignment completes our movie chatbot system - focus on understa
   - **1 point:** Added pattern/action but with minor implementation issues or limited functionality
   - **0.5 points:** Attempted addition but significant problems
   - **0 points:** No new pattern/action pair added
+
+---
+
+## Writeup & Reflection (2 points)
+
+**Reflection Questions (2 points)**
+- **2 points:** All three reflection questions answered thoughtfully with specific examples and clear understanding of concepts
+- **1.5 points:** All questions answered with good detail but could use more depth
+- **1 point:** Questions answered but responses are brief or lack specific examples
+- **0.5 points:** Questions answered minimally with little detail
+- **0 points:** Reflection questions not completed
+
+---
 
 **Documentation Penalty**
 - **-1 point:** Missing or inadequate docstrings for new functions
